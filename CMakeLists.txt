@@ -17,3 +17,6 @@ target_link_libraries(tpch_query5 PRIVATE Threads::Threads)
 
 # Install target (optional)
 # install(TARGETS tpch_query5 DESTINATION bin) 
+
+# set(CMAKE_CXX_STANDARD 17) # Or 14
+# add_compile_options(-O3)
